@@ -9,6 +9,18 @@ body {
 
 }
 
+.pet-button {
+	margin-top: -50px;
+	margin-bottom: 50px;
+	margin-right: 0px;
+
+}
+
+.pet-image {
+	width: 150px;
+	height: 150px;
+}
+
 .counter {
 	 color: #8903DC;
 
@@ -16,5 +28,17 @@ body {
 
 .pet-toggle  {
   background: var(--toggle-color);
+}
+
+.btn-style::after {
+	background: #E57E00;
+}
+
+.btn-reset::after {
+	content: 'Сброс прогресса';
+}
+
+.btn-ultiplier::after {
+	content: 'Множитель';
 }
 
