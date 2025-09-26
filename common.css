@@ -1,0 +1,103 @@
+:root {
+	--main-font: 'Jua', sans-serif; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: var(--main-font); 
+}
+
+.play-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 390px; 
+    min-height: 600px;
+    background: rgba(217, 217, 217, 0.36);
+    border-radius: 40px;
+}
+
+p, .title, .points, .counter, .btn-style, .btn-pichi {
+	  font-family: var(--main-font);
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.points {
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.counter {
+    font-size: 120px;
+    margin-top: -20px;
+		padding: 0 70px;
+
+}
+
+.pet-button {
+    background: none;
+    border: none;
+    margin-top: -150px;
+		margin-bottom: 20px;
+		transition: all 0.1s ease;
+}
+
+.pet-button:hover {
+    transform: scale(1.08);
+}
+
+.pet-button:active {
+    transform: scale(0.92);
+}
+
+.pet-image {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+		
+}
+
+.buttons-group {
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%;
+		margin: 20px 0;
+		margin-top: -30px;
+}
+
+.btn-style {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    color: #000;
+}
+
+span {
+    font-size: 25px;
+}
+
+.pet-toggle {
+	  font-family: var(--main-font);
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+}

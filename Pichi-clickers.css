@@ -1,0 +1,20 @@
+:root{
+	--main-background: linear-gradient(#E57E00, #F3216E);
+	--toggle-color: linear-gradient(90deg, #667EEA, #764BA2);
+
+}
+
+body {
+	background: var(--main-background);
+
+}
+
+.counter {
+	 color: #8903DC;
+
+}
+
+.pet-toggle  {
+  background: var(--toggle-color);
+}
+
