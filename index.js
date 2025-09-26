@@ -46,7 +46,7 @@ class PetCounter {
 	location() {
 		const locatoin = window.location.href
 		if (locatoin.includes('Oto-clicker.html')) {
-			window.location.href = 'Pichi-clicker.html';
+			window.location.href = 'Pichi-clickers.html';
 		} else {
 			window.location.href = 'Oto-clicker.html';
 		}
